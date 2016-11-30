@@ -3,7 +3,7 @@ python:
   - '2.7'
 install:
   - 'pip install -r requirements.txt'
-script: python -m unittest tests/test_sample.py
+script: python -m unittest tests.test_sample
 branches:
   only:
     - master
