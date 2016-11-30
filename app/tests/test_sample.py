@@ -21,3 +21,4 @@ class SampleTest(unittest.TestCase):
         self.assertEqual(cubed(1), 1)
         self.assertEqual(cubed(-5), -125)
 
+
