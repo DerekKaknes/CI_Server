@@ -17,4 +17,4 @@ def is_prime(n):
     return True
 
 def cubed(n):
-    return 0
+    return n**3
