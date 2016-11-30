@@ -1,6 +1,9 @@
 import math
-def add(x,y):
+
+
+def add(x, y):
     return x + y
+
 
 def is_prime(n):
     if type(n) != int:
@@ -15,6 +18,7 @@ def is_prime(n):
         if n % idx == 0:
             return False
     return True
+
 
 def cubed(n):
     return n**3
