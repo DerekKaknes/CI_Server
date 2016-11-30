@@ -1,6 +1,6 @@
 import unittest
 
-from app.code.sample import add, is_prime
+from app.code.sample import add, is_prime, cubed
 
 class SampleTest(unittest.TestCase):
     def test_add(self):
@@ -12,4 +12,8 @@ class SampleTest(unittest.TestCase):
         self.assertFalse(is_prime(9))
         self.assertFalse(is_prime(91))
         self.assertFalse(is_prime(97**2))
+    def test_cubed(self):
+        self.assertEqual(cubed(3), 27)
+        self.assertEqual(cubed(1), 1)
+        self.assertEqual(cubed(-5), -125)
 
