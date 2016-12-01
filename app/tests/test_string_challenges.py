@@ -19,7 +19,7 @@ class StringChallengeTest(unittest.TestCase):
 
     def test_remove_punctuation(self):
         self.assertEqual(remove_punctuation("Yikes!!!", "Yikes"))
-        self.assertEqual(remove_punctuation("Well, here it is: right?", \
+        self.assertEqual(remove_punctuation("Well, here it is: right?",
     "Well here it is right"))
 
 
