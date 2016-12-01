@@ -5,8 +5,8 @@ from app.code.sample import add, is_prime, cubed
 
 class SampleTest(unittest.TestCase):
 
-    def test_add(self):
-        self.assertEqual(add(2, 3), 5)
+    def test_add( self ):
+        self.assertEqual(add(2,3), 5)
         self.assertEqual(add(-1, 5), 4)
 
     def test_is_prime(self):
@@ -20,3 +20,4 @@ class SampleTest(unittest.TestCase):
         self.assertEqual(cubed(3), 27)
         self.assertEqual(cubed(1), 1)
         self.assertEqual(cubed(-5), -125)
+
