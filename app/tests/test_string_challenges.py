@@ -1,6 +1,6 @@
 import unittest
 
-from app.string_challenges import remove_vowels, remove_numbers, remove_punctuation, \
+from app.code.string_challenges import remove_vowels, remove_numbers, remove_punctuation, \
         is_palindrome
 
 
