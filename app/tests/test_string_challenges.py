@@ -6,7 +6,6 @@ from app.code.string_challenges import remove_vowels, remove_numbers, remove_pun
 
 class StringChallengeTest(unittest.TestCase):
 
-
     def test_remove_vowels(self):
         self.assertEqual(remove_vowels("Hello"), "Hll")
         self.assertEqual(remove_vowels("Take me home"), "Tk m hm")
