@@ -1,7 +1,7 @@
 import string
 
 
-def remove_vowels(string):
+def remove_vowels(s):
     """This function should remove all vowels (a,e,i,o,u) from the input
     string and return the result"""
     # Add your code
@@ -9,7 +9,7 @@ def remove_vowels(string):
     return string_without_vowels
 
 
-def remove_numbers(string):
+def remove_numbers(s):
     """This function should remove all numbers from the input string
     and return the result"""
     # Add your code
@@ -17,7 +17,7 @@ def remove_numbers(string):
     return string_without_numbers
 
 
-def remove_punctuation(string):
+def remove_punctuation(s):
     """This function should remove all punctuation marks from the input
     string and return the result.  HINT: see `string.punctuation` from the
     imported string module for characters that should be removed."""
@@ -26,7 +26,7 @@ def remove_punctuation(string):
     return string_without_punctuation
 
 
-def is_palindrome(string):
+def is_palindrome(s):
     """A palindrome is a word that is spelled the same forwards and
     backwards.  This function should return either True or Fasle indicating
     whether the input string is a palindrome.  Note that capitalizations and
