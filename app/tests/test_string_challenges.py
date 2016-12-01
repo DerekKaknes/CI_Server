@@ -22,4 +22,4 @@ class StringChallengeTest(unittest.TestCase):
     def test_is_palindrome(self):
         self.assertTrue(is_palindrome("racecar"))
         self.assertTrue(is_palindrome("RaCecar"))
-        self.assertFAlse(is_palindrome("Hello"))
+        self.assertFalse(is_palindrome("Hello"))
