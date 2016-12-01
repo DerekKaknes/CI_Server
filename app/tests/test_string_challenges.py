@@ -8,19 +8,19 @@ class StringChallengeTest(unittest.TestCase):
 
 
     def test_remove_vowels(self):
-        self.assertEqual(remove_vowels("Hello", "Hll"))
-        self.assertEqual(remove_vowels("Take me home", "Tk m hm"))
+        self.assertEqual(remove_vowels("Hello"), "Hll")
+        self.assertEqual(remove_vowels("Take me home"), "Tk m hm")
 
 
     def test_remove_numbers(self):
-        self.assertEqual(remove_numbers("ABC123", "ABC"))
-        self.assertEqual(remove_numbers("You got 1 shot", "You got  shot"))
+        self.assertEqual(remove_numbers("ABC123"), "ABC")
+        self.assertEqual(remove_numbers("You got 1 shot"), "You got  shot")
 
 
     def test_remove_punctuation(self):
-        self.assertEqual(remove_punctuation("Yikes!!!", "Yikes"))
-        self.assertEqual(remove_punctuation("Well, here it is: right?",
-    "Well here it is right"))
+        self.assertEqual(remove_punctuation("Yikes!!!"), "Yikes")
+        self.assertEqual(remove_punctuation("Well, here it is: right?"),
+    "Well here it is right")
 
 
     def test_is_palindrome(self):
