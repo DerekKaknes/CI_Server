@@ -21,7 +21,6 @@ class StringChallengeTest(unittest.TestCase):
         self.assertEqual(remove_punctuation("Well, here it is: right?"),
     "Well here it is right")
 
-
     def test_is_palindrome(self):
         self.assertTrue(is_palindrome("racecar"))
         self.assertTrue(is_palindrome("RaCecar"))
