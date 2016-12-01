@@ -5,7 +5,7 @@ def remove_vowels(s):
     """This function should remove all vowels (a,e,i,o,u) from the input
     string and return the result"""
     # Add your code
-    string_without_vowels = None
+    string_without_vowels = ''.join([l for l in s if l.lower() not in 'aeiou'])
     return string_without_vowels
 
 
